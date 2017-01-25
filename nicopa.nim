@@ -1,4 +1,9 @@
-##[ Demonstration of concurrency and parallelism in Nim.
+##[
+*******************************
+Nim COncurrency and PAralellism
+*******************************
+
+Demonstration of concurrency and parallelism in Nim.
 
 Compile and run::
 

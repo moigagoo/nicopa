@@ -14,7 +14,7 @@
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600' rel='stylesheet' type='text/css'/>
 
 <!-- CSS -->
-<title>Module nicopa</title>
+<title>Nim COncurrency and PAralellism</title>
 <style type="text/css" >
 /*
 Stylesheet for use with Docutils/rst2html.
@@ -1193,7 +1193,7 @@ function main() {
 <body onload="main()">
 <div class="document" id="documentId">
   <div class="container">
-    <h1 class="title">Module nicopa</h1>
+    <h1 class="title">Nim COncurrency and PAralellism</h1>
     <div class="row">
   <div class="three columns">
   <div>
@@ -1233,15 +1233,18 @@ function main() {
   <div class="nine columns" id="content">
   <div id="tocRoot"></div>
   <p class="module-desc"><p>Demonstration of concurrency and parallelism in Nim.</p>
-<p>Compile and run::</p>
-<p>$ nim c -r nicopa</p>
-<p>In a directory without <cite>config.nims</cite>::</p>
-<p>$ nim c --threads:on -r nicopa</p>
+<p>Compile and run:<pre>
+$ nim c -r nicopa</pre>
+</p>
+<p>In a directory without <cite>config.nims</cite>:<pre>
+$ nim c --threads:on -r nicopa</pre>
+</p>
 <p>Read more:</p>
-<ul class="simple"><li>“Nim in Action”, chapters 3 and 6.</li>
+<blockquote><p><ul class="simple"><li>“Nim in Action”, chapters 3 and 6.</li>
 <li><a class="reference external" href="http://nim-lang.org/docs/lib.html">Documentation</a> on the imported modules (see below).</li>
 <li><a class="reference external" href="http://nim-lang.org/docs/manual.html#threads">http://nim-lang.org/docs/manual.html#threads</a></li>
 </ul>
+</p></blockquote>
 </p>
   <div class="section" id="6">
 <h1><a class="toc-backref" href="#6">Imports</a></h1>
@@ -1255,9 +1258,9 @@ function main() {
 <dd>
 Long CPU-bound task.
 &nbsp;&nbsp;<a
-href="/tree/master/nicopa.nim#L25"
+href="/tree/master/nicopa.nim#L30"
 class="link-seesrc" target="_blank">Source</a>
-<a href="/edit/devel/nicopa.nim#L25" class="link-seesrc" target="_blank" >Edit</a>
+<a href="/edit/devel/nicopa.nim#L30" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 <dt id="downloadBlocking"><a name="downloadBlocking,string"></a><pre><span class="Keyword">proc</span> <span class="Identifier">downloadBlocking</span><span class="Other">(</span><span class="Identifier">version</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">string</span> <span class="Other pragmabegin">{.</span><div class="pragma"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">,</span>
@@ -1266,9 +1269,9 @@ class="link-seesrc" target="_blank">Source</a>
 <dd>
 Blocking version of the download proc. Proc blocks until the archive is fully downloaded.
 &nbsp;&nbsp;<a
-href="/tree/master/nicopa.nim#L34"
+href="/tree/master/nicopa.nim#L39"
 class="link-seesrc" target="_blank">Source</a>
-<a href="/edit/devel/nicopa.nim#L34" class="link-seesrc" target="_blank" >Edit</a>
+<a href="/edit/devel/nicopa.nim#L39" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 <dt id="downloadAsync"><a name="downloadAsync,string"></a><pre><span class="Keyword">proc</span> <span class="Identifier">downloadAsync</span><span class="Other">(</span><span class="Identifier">version</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">Future</span><span class="Other">[</span><span class="Identifier">string</span><span class="Other">]</span> <span class="Other pragmabegin">{.</span><div class="pragma"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">FutureError</span><span class="Other">]</span><span class="Other">,</span>
@@ -1276,9 +1279,9 @@ class="link-seesrc" target="_blank">Source</a>
 <dd>
 Non-blocking version of the download proc. Returns a <cite>Future</cite> immediatelly when called. <cite>await</cite> marks a point where the event loop can pass control to another async proc.
 &nbsp;&nbsp;<a
-href="/tree/master/nicopa.nim#L50"
+href="/tree/master/nicopa.nim#L55"
 class="link-seesrc" target="_blank">Source</a>
-<a href="/edit/devel/nicopa.nim#L50" class="link-seesrc" target="_blank" >Edit</a>
+<a href="/edit/devel/nicopa.nim#L55" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 
@@ -1291,7 +1294,7 @@ class="link-seesrc" target="_blank">Source</a>
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small>Made with Nim. Generated: 2017-01-25 17:26:31 UTC</small>
+        <small>Made with Nim. Generated: 2017-01-25 17:29:59 UTC</small>
       </div>
     </div>
   </div>
