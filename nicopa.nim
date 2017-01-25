@@ -1,6 +1,6 @@
 ##[
 *******************************
-Nim COncurrency and PAralellism
+NIm COncurrency and PAralellism
 *******************************
 
 Demonstration of concurrency and parallelism in Nim.
