@@ -1,8 +1,17 @@
 ##[ Demonstration of concurrency and parallelism in Nim.
 
+Compile and run::
+
+  $ nim c -r nicopa
+
+In a directory without `config.nims`::
+
+  $ nim c --threads:on -r nicopa
+
 Read more:
 
   - “Nim in Action”, chapters 3 and 6.
+  - `Documentation <http://nim-lang.org/docs/lib.html>`__ on the imported modules (see below).
   - http://nim-lang.org/docs/manual.html#threads
 
 ]##
