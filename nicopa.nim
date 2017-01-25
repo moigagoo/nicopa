@@ -15,9 +15,9 @@ In a directory without `config.nims`::
 
 Read more:
 
-  - “Nim in Action”, chapters 3 and 6.
-  - `Documentation <http://nim-lang.org/docs/lib.html>`__ on the imported modules (see below).
-  - http://nim-lang.org/docs/manual.html#threads
+- “Nim in Action”, chapters 3 and 6.
+- `Documentation <http://nim-lang.org/docs/lib.html>`__ on the imported modules (see below).
+- http://nim-lang.org/docs/manual.html#threads
 
 ]##
 
